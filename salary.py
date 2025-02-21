@@ -27,3 +27,6 @@ while action == "yes":
         "estimatedyearlycost" : estimatedyearlycost,
         "totalsalarysquared" : totalsalarysquared,
            }
+
+    list.append(monthdic)
+    action = input("Enter yes to continue: ")
