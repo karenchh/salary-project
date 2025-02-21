@@ -30,3 +30,12 @@ while action == "yes":
 
     list.append(monthdic)
     action = input("Enter yes to continue: ")
+
+for i in range (len(list)):
+        print(f"The month you entered is: {list[i]['month']}")
+        print(f"The salary for  this month is: {list[i]['salary']}")
+        print(f"The saving for  this month is: {list[i]['savings']}")
+        print(f"The rent for  this month is: {list[i]['rent']}")
+        print(f"The remainingsalary for  this month is: {list[i]['remainingsalary']}")
+        print(f"The estimatedyearlycost for  this month is: {list[i]['estimatedyearlycost']}")
+        print(f"The totalsalarysquared for  this month is: {list[i]['totalsalarysquared']}")
