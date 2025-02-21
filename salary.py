@@ -15,3 +15,15 @@ while action == "yes":
     remainingsalary = salary - total
     estimatedyearlycost = (rent + electricity) * 12
     totalsalarysquared = salary ** 2
+
+    monthdic = {
+        "month" : newMonth,
+        "salary" : salary,
+        "savings" : savings,
+        "rent" : rent, 
+        "electricity" : electricity,
+        "total" : total,
+        "remainingsalary" : remainingsalary,
+        "estimatedyearlycost" : estimatedyearlycost,
+        "totalsalarysquared" : totalsalarysquared,
+           }
