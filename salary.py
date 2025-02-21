@@ -49,4 +49,4 @@ if comp == "yes":
                
         leftamount = addamountmonthly / totalsavings
 
-print(f"The totalsavings amount is: {totalsavings} and the left amount is: {totalsavings} ")
+print(f"The totalsavings amount is: {totalsavings} and the left amount is: {leftamount} ")
