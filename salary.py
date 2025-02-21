@@ -48,3 +48,5 @@ if comp == "yes":
                 totalsavings += list[i]["savings"]
                
         leftamount = addamountmonthly / totalsavings
+
+print(f"The totalsavings amount is: {totalsavings} and the left amount is: {totalsavings} ")
