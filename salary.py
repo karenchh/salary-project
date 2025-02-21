@@ -1,6 +1,6 @@
 list = []
 action = "yes"
-
+totalsavings = 0
 while action == "yes":
     salary = float(input("Please enter your salary: "))
     newMonth = input("Enter the month you are storing the salary for: ")
@@ -39,3 +39,12 @@ for i in range (len(list)):
         print(f"The remainingsalary for  this month is: {list[i]['remainingsalary']}")
         print(f"The estimatedyearlycost for  this month is: {list[i]['estimatedyearlycost']}")
         print(f"The totalsalarysquared for  this month is: {list[i]['totalsalarysquared']}")
+
+comp = input("Do you want to add additional amout: answer by yes or no: ")
+if comp == "yes":
+        additionalamount = float(input("Enter the additional amount:" ))
+        addamountmonthly = 12 * additionalamount
+        for i in range(len(list)):
+                totalsavings += list[i]["savings"]
+               
+        leftamount = addamountmonthly / totalsavings
